@@ -6,6 +6,6 @@ variable "aws" {
 }
 
 variable "iam_roles" {
-  type = any
+  type    = any
   default = []
 }
